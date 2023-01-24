@@ -15,10 +15,10 @@ search="hello ia m    ashar"
 #print(re.search("ha$",search))
 #print(re.search("e..o",search))    #<re.Match object; span=(1, 5), match='ello'>
 #print(re.search(r"[a-z]llo","hello"))    # wild card  [a-z][A-Z][0-9]
+print(re.search(r"\.llo","he.llo"))
 
 
-
-print(re.search(r"Py.*n","Python programmin"))
+#print(re.search(r"Py.*n","Python programmin"))
 # import re
 # def check_punctuation (text):
 #   result = re.search(r"[^a-zA-Z0-9 ]", text)
@@ -30,3 +30,25 @@ print(re.search(r"Py.*n","Python programmin"))
 # print(check_punctuation("Wow! We're really picking up some steam now!")) # True
 # print(check_punctuation("End of the line")) # False
 
+
+
+
+# Regular Expressions Cheat-Sheet
+# Check out the following links for more information:
+
+# https://docs.python.org/3/howto/regex.html
+
+# https://docs.python.org/3/library/re.html
+
+# https://docs.python.org/3/howto/regex.html#greedy-versus-non-greedy
+
+# Shout out to regex101.com, which will explain each stage of a regex. 
+
+
+
+
+# Advanced Regular Expressions Cheat-Sheet
+# Check out the following link for more information:
+
+# https://regexcrossword.com/
+"""image.png"""
