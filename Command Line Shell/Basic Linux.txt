@@ -1,0 +1,9 @@
+cd ..
+pwd
+cwd  ../
+mkdir
+rmdir
+ls -l     files with meta
+ls -la    +hidden files
+mv file1 file2     file1 is renamed to file2
+cp file1 file2     file2 is copied to file1

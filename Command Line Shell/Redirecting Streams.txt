@@ -1,0 +1,40 @@
+./script.py  > saveoutput.txt     redirect file outout to a file  (new file)
+./script.py  >> saveoutput.txt     redirect file outout to a file  (Append to file)
+Pipe is used to redirect output from one file as input to another
+ls -la | less          (G)
+
+
+
+see this 
+
+
+user@ubuntu:-$ can capitalize.py
+#!/usr/bin/env python3
+import sys
+for line in sys.stdin:
+print(line.strip().capitalize())
+
+user@ubuntu:-$ cat haiku.txt
+advance your career,
+automation with Python,
+it's so fun to learn.
+
+user@ubuntu:-$ cat haiku.txt | ./capitalize.py
+Advance your career,
+Automation with python,
+It's so fun to learn.
+
+
+
+
+
+
+
+
+ping a.com                                                                                ps ax | grep ping
+......                                                                                    pid ----
+.......                                                                                  kill ----
+
+
+
+

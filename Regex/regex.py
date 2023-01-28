@@ -1,4 +1,4 @@
-import regex
+import Regex.regex as regex
 
 #grep word_to_search filepath
 # grep -i word_to_search filepath    //no case match
