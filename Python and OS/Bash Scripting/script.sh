@@ -4,3 +4,4 @@ if 1=1: then
 else
     echo "ashar"
 fi
+    ashar
