@@ -1,2 +1,16 @@
 strace -o output.strace ./file.py     //for debuggig the sysytem calls
 strace ./file.py | less
+ltrace for library calls
+
+iotop     //tool to see which processes are using the most i/o.
+iostat //  stats of i/o  operations in virtual memory 
+vmstat 
+
+
+iftop   //tool to check network traffic
+trickel //can be used to limit the bandwidth
+
+
+wc -l file.xyz     //count lines of file
+head -10 file.xyz  //top 10 lines
+tail -10 file.xyz  //bottom 10 lines
