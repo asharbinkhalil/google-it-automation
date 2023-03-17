@@ -1,1 +1,2 @@
 strace -o output.strace ./file.py     //for debuggig the sysytem calls
+strace ./file.py | less
